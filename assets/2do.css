@@ -1,3 +1,42 @@
+@media (min-width: 600px)
+{
+   .side
+   {
+      display: inline-block;
+      width: 49%;
+      vertical-align: top;
+   }
+}
+
+dt
+{
+   float: left;
+   margin-right: 0.2em;
+}
+
+#searches-list
+{
+   cursor: pointer;
+}
+
+#searches-list > li:hover dl,
+#searches-list > li:focus dl
+{
+   display: block;
+}
+
+#searches-list dl
+{
+   margin: 0;
+   display: none;
+}
+
+
+
+.side{
+    background-color: yellow;
+}
+
 
 
 .task1{
